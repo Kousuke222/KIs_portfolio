@@ -49,7 +49,7 @@ const ArtsList: React.FC = () => {
                 width={artMap.get("w") as number}
                 height={artMap.get("h") as number}
                 layout="responsive"
-                sizes="30vw"
+                sizes="20vw"
                 alt=""
                 src={`${BASE_PATH}${artMap.get("src") as string}`}
               />
