@@ -36,7 +36,7 @@ const ProductsList: React.FC = () => {
               description={memoria[0]}
               note={memoria[1]}
             />
-            <div className="flex flex-col items-start justify-start gap-5">
+            <div className="flex max-w-[600px] flex-col items-start justify-start gap-5">
               <div>
                 <YouTube
                   videoId="LJxDqh1eHRM"
