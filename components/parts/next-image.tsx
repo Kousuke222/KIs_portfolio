@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import nextConfig, { basePath } from "../../next.config";
+const BASE_PATH = nextConfig.basePath || "";
 
 type ImageProps = {
   src: string;
@@ -19,7 +21,7 @@ const NextImage: React.FC<ImageProps> = (props) => {
     >
       <Image
         alt={props.alt}
-        src={props.src}
+        src={`${basePath}/${props.src}`}
         sizes="100vw"
         fill
         style={{

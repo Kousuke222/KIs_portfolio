@@ -3,6 +3,8 @@ import React from "react";
 import Image from "next/image";
 import YouTube from "react-youtube";
 import ProductCard from "./product-card";
+import nextConfig from "../../../next.config";
+const BASE_PATH = nextConfig.basePath || "";
 
 const ProductsList: React.FC = () => {
   const memoria: string[] = [
@@ -75,7 +77,7 @@ const ProductsList: React.FC = () => {
               layout="responsive"
               sizes="80vw"
               alt=""
-              src="/images/image.avif"
+              src={`${BASE_PATH}/images/image.avif`}
             />
             <p>↑Lighthouseのスコア</p>
           </div>
@@ -104,7 +106,7 @@ const ProductsList: React.FC = () => {
                 layout="responsive"
                 sizes="50vw"
                 alt=""
-                src="/images/スクリーンショット 2025-01-28 214211.avif"
+                src={`${BASE_PATH}/images/スクリーンショット 2025-01-28 214211.avif`}
               />
             </div>
           </div>

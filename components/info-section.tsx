@@ -2,6 +2,9 @@ import React from "react";
 import SectionTitle from "./parts/section-title";
 import SubTitle from "./parts/sub-title";
 import Image from "next/image";
+import nextConfig, { basePath } from "../next.config";
+const BASE_PATH = nextConfig.basePath || "";
+
 const InfoSection: React.FC = () => {
   return (
     <div
@@ -128,7 +131,7 @@ const InfoSection: React.FC = () => {
                     width={24}
                     height={24}
                     alt="Github icon"
-                    src="/image-1@2x.png"
+                    src={`${basePath}/image-1@2x.png`}
                   />
                 </div>
                 <div className="relative inline-block min-w-[33px] font-semibold">

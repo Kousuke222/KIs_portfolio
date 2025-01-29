@@ -25,7 +25,7 @@ const SectionTitle: React.FC<Props> = (props) => {
       </div>
       <div className="flex h-8 justify-start mq450:h-4">
         <NextImage
-          src="divider-2.svg"
+          src={`divider-2.svg`}
           alt="---------------------------------"
         />
       </div>

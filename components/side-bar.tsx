@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import { Link as Scroll } from "react-scroll";
+import nextConfig, { basePath } from "../next.config";
+const BASE_PATH = nextConfig.basePath || "";
 
 const Sidebar: React.FC = () => {
   return (
@@ -12,7 +14,7 @@ const Sidebar: React.FC = () => {
           width={274}
           height={3555}
           alt=""
-          src="/polygon-3.svg"
+          src={`${basePath}/polygon-3.svg`}
         />
 
         <Image
@@ -21,7 +23,7 @@ const Sidebar: React.FC = () => {
           width={274}
           height={3555}
           alt=""
-          src="/polygon-3.svg"
+          src={`${basePath}/polygon-3.svg`}
         />
         <Image
           className="absolute left-[0px] top-[7110px] h-[3555px] w-[274px]"
@@ -29,7 +31,7 @@ const Sidebar: React.FC = () => {
           width={274}
           height={3555}
           alt=""
-          src="/polygon-3.svg"
+          src={`${basePath}/polygon-3.svg`}
         />
       </div>
       <nav className="fixed left-[0px] top-[0px] z-[1] m-0 box-border flex h-screen w-[209px] flex-col items-start justify-between px-4 py-10 text-left font-poppins text-sm text-white">

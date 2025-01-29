@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import nextConfig from "../../../next.config";
+const BASE_PATH = nextConfig.basePath || "";
+
 const ArtsList: React.FC = () => {
   const artWorkMaps: Map<string, string | number>[] = [
     new Map<string, string | number>([
@@ -48,7 +51,7 @@ const ArtsList: React.FC = () => {
                 layout="responsive"
                 sizes="30vw"
                 alt=""
-                src={artMap.get("src") as string}
+                src={`${BASE_PATH}${artMap.get("src") as string}`}
               />
             </div>
           </div>

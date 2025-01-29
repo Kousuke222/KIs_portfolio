@@ -4,6 +4,8 @@ import Image from "next/image";
 import type { NextPage } from "next";
 import PropTypes from "prop-types";
 import DoubleArrowRight from "../icons/double-arrow-right";
+import nextConfig, { basePath } from "../../next.config";
+const BASE_PATH = nextConfig.basePath || "";
 
 const NewsList: NextPage = () => {
   const contentMaps: Map<string, string | React.JSX.Element>[] = [
@@ -32,7 +34,7 @@ const NewsList: NextPage = () => {
               layout="responsive"
               sizes="50vw"
               alt=""
-              src="/images/IMG_4850.avif"
+              src={`${basePath}/images/IMG_4850.avif`}
             />
             <p className="ml-4">↑AFUL:cantor</p>
           </div>
@@ -78,7 +80,7 @@ const NewsList: NextPage = () => {
               layout="responsive"
               sizes="20vw"
               alt=""
-              src="/images/IMG_4820.avif"
+              src={`${basePath}/images/IMG_4820.avif`}
             />
             <p className="ml-4">左：奥本和也↑　↑右：伊藤康介</p>
           </div>
