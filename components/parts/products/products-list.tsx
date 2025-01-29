@@ -24,7 +24,7 @@ const ProductsList: React.FC = () => {
   ];
   return (
     <div className="flex w-full flex-col items-start justify-start gap-10">
-      <div className="flex w-full items-start justify-start py-0 font-noto-sans-jp text-3xs">
+      <div className="flex w-full items-start justify-start font-noto-sans-jp text-3xs">
         <div className="flex w-full items-center bg-gray-100 px-2 py-4 shadow-[63px_-207px_60px_rgba(0,_0,_0,_0),_40px_-132px_55px_rgba(0,_0,_0,_0.03),_23px_-74px_47px_rgba(0,_0,_0,_0.12),_10px_-33px_35px_rgba(0,_0,_0,_0.2),_3px_-8px_19px_rgba(0,_0,_0,_0.23)]">
           <div className="fles-row flex w-full flex-wrap content-start items-start justify-start gap-10 border-y-2 border-y-emerald-300 p-5 mq450:flex-col">
             <ProductCard
@@ -38,10 +38,18 @@ const ProductsList: React.FC = () => {
             />
             <div className="flex flex-col items-start justify-start gap-5">
               <div>
-                <YouTube videoId="LJxDqh1eHRM" />
+                <YouTube
+                  videoId="LJxDqh1eHRM"
+                  iframeClassName="w-full h-full"
+                  className="aspect-[640/360] w-full"
+                />
               </div>
               <div>
-                <YouTube videoId="4ZY4ym0Bs2w" />
+                <YouTube
+                  videoId="4ZY4ym0Bs2w"
+                  iframeClassName="w-full h-full"
+                  className="aspect-[640/360] w-full"
+                />
               </div>
             </div>
           </div>
@@ -50,7 +58,7 @@ const ProductsList: React.FC = () => {
 
       <div className="flex w-full items-start justify-start font-noto-sans-jp text-3xs">
         <div className="flex w-full items-center bg-gray-100 px-2 py-4 shadow-[63px_-207px_60px_rgba(0,_0,_0,_0),_40px_-132px_55px_rgba(0,_0,_0,_0.03),_23px_-74px_47px_rgba(0,_0,_0,_0.12),_10px_-33px_35px_rgba(0,_0,_0,_0.2),_3px_-8px_19px_rgba(0,_0,_0,_0.23)]">
-          <div className="fles-row flex w-full flex-wrap content-start items-start justify-start gap-10 whitespace-pre-wrap break-words border-y-2 border-y-emerald-300 p-5 mq450:flex-col">
+          <div className="fles-row flex w-full flex-wrap content-start items-start justify-start gap-10 border-y-2 border-y-emerald-300 p-5 mq450:flex-col">
             <ProductCard
               productTitle={"KI's Portfolio"}
               productSubTitle={"伊藤康介のポートフォリオ"}
@@ -63,7 +71,6 @@ const ProductsList: React.FC = () => {
                 "next.js",
                 "tailwind",
                 "typeScript",
-                "locofy",
               ]}
               description={portfolio[0]}
               note={portfolio[1]}

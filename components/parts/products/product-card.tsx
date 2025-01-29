@@ -42,7 +42,7 @@ const ProductCard: React.FC<ProductProps> = (props) => {
             Repository
           </div>
           <a
-            className="relative text-xs font-light"
+            className="relative flex text-xs font-light"
             href={props.repositoryLink}
             target="_blank"
             rel="noreferrer"

@@ -91,7 +91,7 @@ const InfoSection: React.FC = () => {
               <span className="whitespace-pre-wrap">{` |  `}</span>
               <span className="font-noto-sans-jp">19</span>
               <span className="font-noto-sans-jp font-light">歳 </span>
-              <span className="whitespace-pre-wrap"> | 2007</span>
+              <span className="whitespace-pre-wrap"> | 2005</span>
               <span className="font-noto-sans-jp">/</span>
               <span>4</span>
               <span className="font-noto-sans-jp">/</span>
