@@ -41,10 +41,10 @@ const ProductsList: React.FC = () => {
                 <YouTube
                   videoId="LJxDqh1eHRM"
                   iframeClassName="w-full h-full"
-                  className="aspect-[640/360] w-full"
+                  className="aspect-[6400/3600] w-full"
                 />
               </div>
-              <div className="w-full">
+              <div className="w-[500px]">
                 <YouTube
                   videoId="4ZY4ym0Bs2w"
                   iframeClassName="w-full h-full"
