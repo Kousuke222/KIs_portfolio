@@ -33,6 +33,30 @@ const Sidebar: React.FC = () => {
           alt=""
           src={`${basePath}/polygon-3.svg`}
         />
+        <Image
+          className="absolute left-[0px] top-[10665px] h-[3555px] w-[274px]"
+          loading="lazy"
+          width={274}
+          height={3555}
+          alt=""
+          src={`${basePath}/polygon-3.svg`}
+        />
+        <Image
+          className="absolute left-[0px] top-[14220px] h-[3555px] w-[274px]"
+          loading="lazy"
+          width={274}
+          height={3555}
+          alt=""
+          src={`${basePath}/polygon-3.svg`}
+        />
+        <Image
+          className="absolute left-[0px] top-[17775px] h-[3555px] w-[274px]"
+          loading="lazy"
+          width={274}
+          height={3555}
+          alt=""
+          src={`${basePath}/polygon-3.svg`}
+        />
       </div>
       <nav className="fixed left-[0px] top-[0px] z-[1] m-0 box-border flex h-screen w-[209px] flex-col items-start justify-between px-4 py-10 text-left font-poppins text-sm text-white">
         <div className="flex flex-col items-start justify-end px-0 py-4">

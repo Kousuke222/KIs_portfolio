@@ -14,7 +14,7 @@ const NewsList: NextPage = () => {
       ["tag", "hobby"],
       [
         "content",
-        <div className="relative flex h-[560px] max-w-[500px] flex-col gap-5 self-start font-noto-sans-jp font-light">
+        <div className="relative flex h-[600px] max-w-[500px] flex-col gap-5 self-start font-noto-sans-jp font-light">
           <div className="relative self-start text-smi">
             <p className="ml-4 text-lgi">やべぇイヤホンを購入しました…。</p>
             <p className="ml-4">
