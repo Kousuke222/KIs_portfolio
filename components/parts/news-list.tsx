@@ -48,7 +48,7 @@ const NewsList: NextPage = () => {
         "content",
         <div
           key="2"
-          className="relative flex h-[500px] max-w-[500px] flex-col gap-5 self-start font-noto-sans-jp font-light"
+          className="relative flex h-[600px] max-w-[500px] flex-col gap-5 self-start font-noto-sans-jp font-light"
         >
           <div className="relative self-start">
             <p>
@@ -94,7 +94,7 @@ const NewsList: NextPage = () => {
         "content",
         <div
           key="3"
-          className="relative flex h-[500px] max-w-[500px] flex-col gap-5 self-start font-noto-sans-jp font-light"
+          className="relative flex h-[600px] max-w-[500px] flex-col gap-5 self-start font-noto-sans-jp font-light"
         >
           <div className="relative self-start">
             <p>

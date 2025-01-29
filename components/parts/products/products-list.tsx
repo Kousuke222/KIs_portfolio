@@ -72,12 +72,12 @@ const ProductsList: React.FC = () => {
             <Image
               className=""
               loading="lazy"
-              width={1920}
-              height={1032}
+              width={2560}
+              height={1528}
               layout="responsive"
               sizes="80vw"
               alt=""
-              src={`${BASE_PATH}/images/image.avif`}
+              src={`${BASE_PATH}/images/image (1).avif`}
             />
             <p>↑Lighthouseのスコア</p>
           </div>
