@@ -42,7 +42,7 @@ const ArtsList: React.FC = () => {
       {artWorkMaps.map((artMap) => (
         <div className="flex max-w-full items-start justify-start py-0 font-noto-sans-jp text-3xs">
           <div className="flex flex-row items-center bg-gray-100 px-2 py-6 shadow-[63px_-207px_60px_rgba(0,_0,_0,_0),_40px_-132px_55px_rgba(0,_0,_0,_0.03),_23px_-74px_47px_rgba(0,_0,_0,_0.12),_10px_-33px_35px_rgba(0,_0,_0,_0.2),_3px_-8px_19px_rgba(0,_0,_0,_0.23)]">
-            <div className="fles-row flex flex-wrap content-start items-start justify-start gap-4 border-y-2 border-y-rose-400 p-3">
+            <div className="fles-row flex max-w-[460px] flex-wrap content-start items-start justify-start gap-4 border-y-2 border-y-rose-400 p-3">
               <Image
                 className=""
                 loading="lazy"
