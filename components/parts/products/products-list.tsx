@@ -37,14 +37,14 @@ const ProductsList: React.FC = () => {
               note={memoria[1]}
             />
             <div className="flex max-w-[700px] flex-col items-start justify-start gap-5">
-              <div className="flex w-[700] max-w-[700px] mq750:w-[300px] mq450:w-[140px]">
+              <div className="flex max-w-[700px] ~w-[14rem]/[40rem]">
                 <YouTube
                   videoId="LJxDqh1eHRM"
                   iframeClassName="w-full h-full"
                   className="aspect-[640/360] w-full"
                 />
               </div>
-              <div className="flex max-w-[700px] ~w-[8rem]/[40rem]">
+              <div className="flex max-w-[700px] ~w-[14rem]/[40rem]">
                 <YouTube
                   videoId="4ZY4ym0Bs2w"
                   iframeClassName="w-full h-full"
